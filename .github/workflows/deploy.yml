@@ -29,6 +29,8 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+        env:
+          BASE_PATH: /minigames/
 
       - uses: actions/configure-pages@v4
 
