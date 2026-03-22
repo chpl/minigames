@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/minigames/',
+  base: process.env.BASE_PATH || '/',
+  plugins: [],
 })
