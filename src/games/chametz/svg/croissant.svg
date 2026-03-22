@@ -1,8 +1,21 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <path d="M15 60 Q20 35 40 30 Q50 28 55 35 Q60 28 70 30 Q85 35 85 60 Q70 55 50 58 Q30 55 15 60Z"
-          fill="#E8C170" stroke="#8B6914" stroke-width="3"/>
-    <path d="M20 56 Q25 40 42 34 Q50 32 55 38 Q58 32 68 34 Q80 40 80 56" fill="#F0D48A" stroke="none"/>
-    <path d="M30 50 Q35 44 42 42" fill="none" stroke="#C9A04E" stroke-width="1.5" opacity="0.6"/>
-    <path d="M55 42 Q62 40 70 50" fill="none" stroke="#C9A04E" stroke-width="1.5" opacity="0.6"/>
-    <path d="M42 48 Q50 45 58 48" fill="none" stroke="#C9A04E" stroke-width="1.5" opacity="0.6"/>
-  </svg>
+  <!-- Crescent croissant shape -->
+  <path d="M10 62 Q12 40 28 30 Q38 24 50 28 Q50 24 62 28 Q72 24 82 30 Q92 40 90 62
+           Q82 58 70 56 Q58 55 50 58 Q42 55 30 56 Q18 58 10 62Z"
+        fill="#D4952B" stroke="#8B6914" stroke-width="3"/>
+  <!-- Lighter top surface -->
+  <path d="M14 58 Q16 42 30 34 Q40 28 50 32 Q50 28 60 32 Q70 28 80 34 Q88 42 86 58"
+        fill="#E8A830" stroke="none"/>
+  <!-- Golden highlight -->
+  <path d="M20 52 Q22 42 34 36 Q42 32 50 34" fill="#F0C040" stroke="none" opacity="0.4"/>
+  <!-- Layer lines -->
+  <path d="M18 52 Q28 46 38 44 Q46 43 50 46" fill="none" stroke="#C8922A" stroke-width="1.5" opacity="0.5"/>
+  <path d="M50 46 Q54 43 62 44 Q72 46 82 52" fill="none" stroke="#C8922A" stroke-width="1.5" opacity="0.5"/>
+  <path d="M24 56 Q34 52 44 50 Q50 50 56 50 Q66 52 76 56" fill="none" stroke="#C8922A" stroke-width="1.5" opacity="0.4"/>
+  <!-- Curved ridges on surface -->
+  <path d="M30 42 Q36 38 42 40" fill="none" stroke="#B8820A" stroke-width="1" opacity="0.4"/>
+  <path d="M58 40 Q64 38 70 42" fill="none" stroke="#B8820A" stroke-width="1" opacity="0.4"/>
+  <!-- End tips curl highlight -->
+  <ellipse cx="12" cy="60" rx="4" ry="3" fill="#F0C040" opacity="0.3"/>
+  <ellipse cx="88" cy="60" rx="4" ry="3" fill="#F0C040" opacity="0.3"/>
+</svg>

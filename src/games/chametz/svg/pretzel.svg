@@ -1,11 +1,21 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <path d="M50 80 Q25 65 20 45 Q15 25 35 20 Q50 16 50 35 Q50 16 65 20 Q85 25 80 45 Q75 65 50 80Z"
-          fill="#D4A056" stroke="#8B6914" stroke-width="3" fill-rule="evenodd"/>
-    <path d="M50 70 Q32 58 28 44 Q24 30 38 27 Q48 24 48 38 Q48 24 62 27 Q76 30 72 44 Q68 58 50 70Z"
-          fill="#E8C170" stroke="none"/>
-    <circle cx="35" cy="35" r="1.5" fill="#FFF" opacity="0.7"/>
-    <circle cx="65" cy="35" r="1.5" fill="#FFF" opacity="0.7"/>
-    <circle cx="50" cy="65" r="1.5" fill="#FFF" opacity="0.7"/>
-    <circle cx="42" cy="50" r="1" fill="#FFF" opacity="0.7"/>
-    <circle cx="58" cy="50" r="1" fill="#FFF" opacity="0.7"/>
-  </svg>
+  <!-- Classic twisted pretzel -->
+  <!-- Outer pretzel shape using thick strokes -->
+  <path d="M50 85 Q20 70 15 48 Q10 26 30 18 Q42 14 50 28 Q58 14 70 18 Q90 26 85 48 Q80 70 50 85Z"
+        fill="#D4952B" stroke="#8B6914" stroke-width="3"/>
+  <!-- Inner highlight -->
+  <path d="M50 78 Q26 66 22 48 Q18 30 34 24 Q44 20 50 32 Q56 20 66 24 Q82 30 78 48 Q74 66 50 78Z"
+        fill="#E8A830" stroke="none"/>
+  <!-- Cross-over twist in the middle -->
+  <path d="M35 50 Q42 42 50 50 Q58 42 65 50" fill="none" stroke="#8B6914" stroke-width="3" stroke-linecap="round"/>
+  <!-- Darker shading on bottom curves -->
+  <path d="M22 55 Q30 70 50 80 Q70 70 78 55" fill="#C07B18" opacity="0.25" stroke="none"/>
+  <!-- Salt crystals -->
+  <rect x="32" y="30" width="3" height="3" rx="0.5" fill="#FFF" opacity="0.8" transform="rotate(15,33,31)"/>
+  <rect x="62" y="30" width="3" height="3" rx="0.5" fill="#FFF" opacity="0.8" transform="rotate(-10,63,31)"/>
+  <rect x="48" y="72" width="3" height="3" rx="0.5" fill="#FFF" opacity="0.8"/>
+  <rect x="38" y="50" width="2.5" height="2.5" rx="0.5" fill="#FFF" opacity="0.7"/>
+  <rect x="58" y="48" width="2.5" height="2.5" rx="0.5" fill="#FFF" opacity="0.7"/>
+  <rect x="26" y="42" width="2" height="2" rx="0.5" fill="#FFF" opacity="0.6"/>
+  <rect x="72" y="42" width="2" height="2" rx="0.5" fill="#FFF" opacity="0.6"/>
+</svg>

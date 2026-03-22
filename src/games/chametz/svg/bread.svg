@@ -1,8 +1,22 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="50" cy="55" rx="38" ry="28" fill="#D4A056" stroke="#8B6914" stroke-width="3"/>
-    <ellipse cx="50" cy="50" rx="36" ry="25" fill="#E8C170"/>
-    <path d="M25 45 Q35 35 50 33 Q65 35 75 45" fill="#F0D48A" stroke="none"/>
-    <line x1="35" y1="42" x2="38" y2="55" stroke="#C9A04E" stroke-width="1.5" opacity="0.5"/>
-    <line x1="50" y1="38" x2="50" y2="55" stroke="#C9A04E" stroke-width="1.5" opacity="0.5"/>
-    <line x1="65" y1="42" x2="62" y2="55" stroke="#C9A04E" stroke-width="1.5" opacity="0.5"/>
-  </svg>
+  <!-- Sliced bread loaf -->
+  <!-- Back slice face -->
+  <rect x="22" y="28" width="32" height="48" rx="4" fill="#F5DEB3" stroke="#8B6914" stroke-width="3"/>
+  <!-- Crust edge on slice -->
+  <rect x="22" y="28" width="32" height="48" rx="4" fill="none" stroke="#C8922A" stroke-width="3"/>
+  <!-- Inner crumb texture on slice -->
+  <circle cx="32" cy="42" r="1.5" fill="#E8D5A8" opacity="0.6"/>
+  <circle cx="42" cy="52" r="2" fill="#E8D5A8" opacity="0.6"/>
+  <circle cx="36" cy="62" r="1.5" fill="#E8D5A8" opacity="0.6"/>
+  <!-- Main loaf body -->
+  <path d="M40 28 Q40 18 60 18 Q80 18 80 32 L80 72 Q80 80 70 80 L50 80 Q40 80 40 72 Z"
+        fill="#D4952B" stroke="#8B6914" stroke-width="3"/>
+  <!-- Top crust highlight -->
+  <path d="M42 28 Q42 20 60 20 Q78 20 78 32" fill="#E8A830" stroke="none"/>
+  <!-- Score lines on top -->
+  <path d="M50 22 L50 30" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.5"/>
+  <path d="M60 20 L60 28" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.5"/>
+  <path d="M70 22 L70 30" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.5"/>
+  <!-- Side shading -->
+  <path d="M78 34 L78 70 Q78 78 70 78" fill="#C08420" stroke="none" opacity="0.3"/>
+</svg>

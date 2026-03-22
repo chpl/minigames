@@ -1,9 +1,18 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="50" cy="52" rx="32" ry="26" fill="#C8A26E" stroke="#8B6914" stroke-width="3"/>
-    <ellipse cx="48" cy="50" rx="30" ry="24" fill="#D4B07A"/>
-    <circle cx="38" cy="42" r="2" fill="#A0845C"/>
-    <circle cx="55" cy="38" r="1.5" fill="#A0845C"/>
-    <circle cx="62" cy="52" r="2" fill="#A0845C"/>
-    <circle cx="40" cy="58" r="1.5" fill="#A0845C"/>
-    <circle cx="55" cy="62" r="2" fill="#A0845C"/>
-  </svg>
+  <!-- Brown potato with organic shape -->
+  <path d="M50 25 Q72 22 82 38 Q90 52 82 65 Q72 80 50 78 Q28 80 18 65 Q10 52 18 38 Q28 22 50 25Z"
+        fill="#A0764E" stroke="#6D4C41" stroke-width="3"/>
+  <!-- Lighter inner surface -->
+  <path d="M50 28 Q70 26 78 40 Q84 52 78 62 Q70 74 50 72 Q30 74 22 62 Q16 52 22 40 Q30 26 50 28Z"
+        fill="#B8865A"/>
+  <!-- Highlight -->
+  <path d="M35 34 Q42 28 55 30 Q62 32 65 38" fill="#C89870" stroke="none" opacity="0.5"/>
+  <!-- Eyes (potato eyes/spots) -->
+  <ellipse cx="35" cy="42" rx="3" ry="2" fill="#8B6548" opacity="0.6"/>
+  <ellipse cx="58" cy="38" rx="2.5" ry="1.8" fill="#8B6548" opacity="0.5"/>
+  <ellipse cx="66" cy="52" rx="2.5" ry="2" fill="#8B6548" opacity="0.6"/>
+  <ellipse cx="38" cy="60" rx="3" ry="2" fill="#8B6548" opacity="0.5"/>
+  <ellipse cx="56" cy="65" rx="2" ry="1.5" fill="#8B6548" opacity="0.5"/>
+  <!-- Bottom shadow -->
+  <path d="M28 68 Q40 74 50 72 Q60 74 72 68" fill="#8B6548" opacity="0.2" stroke="none"/>
+</svg>

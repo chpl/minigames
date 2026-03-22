@@ -1,8 +1,24 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="48" cy="45" rx="25" ry="22" fill="#D4A056" stroke="#8B6914" stroke-width="3"/>
-    <ellipse cx="46" cy="43" rx="23" ry="20" fill="#E8C170"/>
-    <rect x="42" y="62" width="12" height="22" rx="3" fill="#E8C170" stroke="#8B6914" stroke-width="2.5"/>
-    <circle cx="48" cy="85" r="5" fill="#E8C170" stroke="#8B6914" stroke-width="2.5"/>
-    <path d="M35 35 Q40 30 48 32" fill="none" stroke="#C9A04E" stroke-width="1.5" opacity="0.5"/>
-    <path d="M55 38 Q52 33 48 32" fill="none" stroke="#C9A04E" stroke-width="1.5" opacity="0.5"/>
-  </svg>
+  <!-- Chicken drumstick -->
+  <!-- Bone stick -->
+  <rect x="44" y="62" width="12" height="26" rx="6" fill="#FFF8E1" stroke="#BCAAA4" stroke-width="2.5"/>
+  <!-- Bone knob at bottom -->
+  <circle cx="50" cy="88" r="7" fill="#FFF8E1" stroke="#BCAAA4" stroke-width="2.5"/>
+  <!-- Small bone knob detail -->
+  <circle cx="50" cy="88" r="4" fill="#FFFFF0" stroke="none"/>
+  <!-- Meat body -->
+  <ellipse cx="50" cy="42" rx="28" ry="26" fill="#D4952B" stroke="#8B6914" stroke-width="3"/>
+  <!-- Lighter highlight on meat -->
+  <ellipse cx="46" cy="38" rx="20" ry="18" fill="#E8A830" stroke="none"/>
+  <!-- Top highlight -->
+  <path d="M32 32 Q40 24 52 28 Q58 30 62 36"
+        fill="#F0C040" stroke="none" opacity="0.4"/>
+  <!-- Shine spot -->
+  <circle cx="38" cy="34" r="4" fill="#F0C040" opacity="0.3"/>
+  <!-- Crispy texture lines -->
+  <path d="M28 42 Q32 38 36 42" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.4"/>
+  <path d="M56 36 Q60 32 64 36" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.4"/>
+  <path d="M34 52 Q38 48 42 52" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.3"/>
+  <!-- Where bone meets meat -->
+  <path d="M42 62 Q46 58 50 60 Q54 58 58 62" fill="#C8922A" stroke="none"/>
+</svg>

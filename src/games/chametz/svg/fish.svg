@@ -1,12 +1,32 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <path d="M75 50 Q65 30 45 28 Q25 26 15 50 Q25 74 45 72 Q65 70 75 50Z"
-          fill="#42A5F5" stroke="#1565C0" stroke-width="3"/>
-    <path d="M75 50 L90 35 L90 65 Z" fill="#42A5F5" stroke="#1565C0" stroke-width="3"/>
-    <path d="M70 50 Q60 35 48 32 Q32 30 22 50" fill="#64B5F6" stroke="none" opacity="0.5"/>
-    <circle cx="30" cy="46" r="5" fill="white" stroke="#1565C0" stroke-width="2"/>
-    <circle cx="29" cy="46" r="2.5" fill="#1565C0"/>
-    <path d="M18 52 Q22 56 30 56" fill="none" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/>
-    <path d="M45 38 Q48 45 45 52" fill="none" stroke="#1565C0" stroke-width="1.5" opacity="0.5"/>
-    <path d="M55 40 Q58 48 55 56" fill="none" stroke="#1565C0" stroke-width="1.5" opacity="0.5"/>
-    <path d="M65 42 Q68 48 65 54" fill="none" stroke="#1565C0" stroke-width="1.5" opacity="0.5"/>
-  </svg>
+  <!-- Cute cartoon fish -->
+  <!-- Tail fin -->
+  <path d="M78 50 L95 32 L92 50 L95 68 Z" fill="#42A5F5" stroke="#1565C0" stroke-width="2.5"/>
+  <!-- Body -->
+  <ellipse cx="50" cy="50" rx="34" ry="24" fill="#42A5F5" stroke="#1565C0" stroke-width="3"/>
+  <!-- Belly -->
+  <ellipse cx="48" cy="56" rx="24" ry="12" fill="#90CAF9" opacity="0.5"/>
+  <!-- Top fin -->
+  <path d="M42 26 Q48 14 56 18 Q52 26 48 28" fill="#1E88E5" stroke="#1565C0" stroke-width="2"/>
+  <!-- Bottom fin -->
+  <path d="M44 72 Q48 80 54 78 Q52 72 50 70" fill="#1E88E5" stroke="#1565C0" stroke-width="1.5"/>
+  <!-- Eye - white -->
+  <circle cx="32" cy="44" r="7" fill="white" stroke="#1565C0" stroke-width="2"/>
+  <!-- Eye - iris -->
+  <circle cx="30" cy="44" r="4" fill="#1565C0"/>
+  <!-- Eye - pupil -->
+  <circle cx="29" cy="43" r="2" fill="#0D47A1"/>
+  <!-- Eye - shine -->
+  <circle cx="28" cy="42" r="1.5" fill="white"/>
+  <!-- Smile -->
+  <path d="M22 56 Q28 62 36 58" fill="none" stroke="#1565C0" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Gill lines -->
+  <path d="M42 40 Q44 46 42 52" fill="none" stroke="#1E88E5" stroke-width="1.5" opacity="0.6"/>
+  <!-- Scale pattern -->
+  <path d="M52 38 Q56 42 52 46" fill="none" stroke="#1E88E5" stroke-width="1" opacity="0.4"/>
+  <path d="M60 42 Q64 46 60 50" fill="none" stroke="#1E88E5" stroke-width="1" opacity="0.4"/>
+  <path d="M54 50 Q58 54 54 58" fill="none" stroke="#1E88E5" stroke-width="1" opacity="0.4"/>
+  <path d="M66 46 Q70 50 66 54" fill="none" stroke="#1E88E5" stroke-width="1" opacity="0.3"/>
+  <!-- Cheek blush -->
+  <circle cx="28" cy="54" r="3" fill="#FF8A80" opacity="0.3"/>
+</svg>

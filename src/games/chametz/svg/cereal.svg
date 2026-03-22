@@ -1,10 +1,26 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <path d="M20 35 L20 75 Q20 82 27 82 L73 82 Q80 82 80 75 L80 35" fill="#5C6BC0" stroke="#3949AB" stroke-width="3"/>
-    <rect x="20" y="32" width="60" height="8" rx="2" fill="#7986CB" stroke="#3949AB" stroke-width="2"/>
-    <circle cx="35" cy="50" r="5" fill="#FFB74D" stroke="#E65100" stroke-width="1.5"/>
-    <circle cx="50" cy="45" r="5" fill="#FFB74D" stroke="#E65100" stroke-width="1.5"/>
-    <circle cx="65" cy="48" r="5" fill="#FFB74D" stroke="#E65100" stroke-width="1.5"/>
-    <circle cx="42" cy="58" r="5" fill="#FFB74D" stroke="#E65100" stroke-width="1.5"/>
-    <circle cx="58" cy="56" r="5" fill="#FFB74D" stroke="#E65100" stroke-width="1.5"/>
-    <circle cx="50" cy="65" r="5" fill="#FFB74D" stroke="#E65100" stroke-width="1.5"/>
-  </svg>
+  <!-- Bowl -->
+  <ellipse cx="50" cy="78" rx="36" ry="10" fill="#D0D0D0" stroke="#888" stroke-width="2.5"/>
+  <path d="M14 62 L14 78 Q14 88 50 88 Q86 88 86 78 L86 62 Q86 72 50 72 Q14 72 14 62Z"
+        fill="#E8E8E8" stroke="#888" stroke-width="2.5"/>
+  <ellipse cx="50" cy="62" rx="36" ry="10" fill="#F5F5F5" stroke="#888" stroke-width="2.5"/>
+  <!-- Milk surface -->
+  <ellipse cx="50" cy="60" rx="30" ry="8" fill="#FFFFF0" opacity="0.6"/>
+  <!-- Colorful cereal rings -->
+  <circle cx="35" cy="54" r="5" fill="#FF7043" stroke="#E64A19" stroke-width="1.5"/>
+  <circle cx="35" cy="54" r="2" fill="#FF7043" stroke="#E64A19" stroke-width="1"/>
+  <circle cx="48" cy="50" r="5" fill="#FFCA28" stroke="#F9A825" stroke-width="1.5"/>
+  <circle cx="48" cy="50" r="2" fill="#FFCA28" stroke="#F9A825" stroke-width="1"/>
+  <circle cx="62" cy="52" r="5" fill="#66BB6A" stroke="#388E3C" stroke-width="1.5"/>
+  <circle cx="62" cy="52" r="2" fill="#66BB6A" stroke="#388E3C" stroke-width="1"/>
+  <circle cx="40" cy="62" r="5" fill="#42A5F5" stroke="#1E88E5" stroke-width="1.5"/>
+  <circle cx="40" cy="62" r="2" fill="#42A5F5" stroke="#1E88E5" stroke-width="1"/>
+  <circle cx="55" cy="60" r="5" fill="#AB47BC" stroke="#8E24AA" stroke-width="1.5"/>
+  <circle cx="55" cy="60" r="2" fill="#AB47BC" stroke="#8E24AA" stroke-width="1"/>
+  <circle cx="68" cy="62" r="4.5" fill="#FF7043" stroke="#E64A19" stroke-width="1.5"/>
+  <circle cx="68" cy="62" r="1.8" fill="#FF7043" stroke="#E64A19" stroke-width="1"/>
+  <!-- Spoon handle -->
+  <line x1="72" y1="22" x2="65" y2="56" stroke="#CCC" stroke-width="3" stroke-linecap="round"/>
+  <!-- Spoon head -->
+  <ellipse cx="64" cy="58" rx="5" ry="3" fill="#DDD" stroke="#BBB" stroke-width="1.5" transform="rotate(-12,64,58)"/>
+</svg>
