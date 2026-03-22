@@ -1,18 +1,22 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Round pita bread -->
-  <ellipse cx="50" cy="55" rx="38" ry="32" fill="#D4A040" stroke="#8B6914" stroke-width="3"/>
-  <ellipse cx="50" cy="52" rx="36" ry="30" fill="#E8C060"/>
+  <!-- Round pita bread with pocket -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="88" rx="34" ry="5" fill="#00000020"/>
+  <!-- Main pita body -->
+  <ellipse cx="50" cy="55" rx="38" ry="30" fill="#D4A040" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Lighter surface -->
+  <ellipse cx="50" cy="52" rx="35" ry="27" fill="#E8C060"/>
   <!-- Top highlight -->
-  <ellipse cx="46" cy="42" rx="20" ry="12" fill="#F0D070" opacity="0.5"/>
-  <!-- Pita pocket opening at top -->
-  <path d="M30 42 Q40 36 50 38 Q60 36 70 42" fill="#C8922A" stroke="#8B6914" stroke-width="2"/>
-  <!-- Veggies peeking out -->
-  <circle cx="38" cy="38" r="3" fill="#E74C3C"/> <!-- tomato -->
-  <path d="M44 35 Q46 30 48 35" fill="#4CAF50" stroke="#388E3C" stroke-width="1.5"/> <!-- lettuce -->
-  <circle cx="52" cy="36" r="2.5" fill="#AB47BC" opacity="0.7"/> <!-- onion -->
-  <path d="M56 34 Q58 30 62 34" fill="#4CAF50" stroke="#388E3C" stroke-width="1.5"/> <!-- lettuce -->
-  <circle cx="64" cy="38" r="2.5" fill="#E74C3C"/> <!-- tomato -->
-  <!-- Surface texture -->
-  <path d="M30 55 Q40 50 50 52 Q60 50 70 55" fill="none" stroke="#C8922A" stroke-width="1" opacity="0.4"/>
-  <path d="M26 65 Q38 60 50 62 Q62 60 74 65" fill="none" stroke="#C8922A" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="44" cy="42" rx="18" ry="10" fill="#F0D070" opacity="0.4"/>
+  <!-- Pita pocket opening -->
+  <path d="M28 46 Q38 38 50 40 Q62 38 72 46" fill="#C8922A" stroke="#5D4037" stroke-width="2"/>
+  <!-- Veggies peeking out of pocket -->
+  <circle cx="36" cy="40" r="3.5" fill="#E74C3C" stroke="#C62828" stroke-width="1"/> <!-- tomato -->
+  <path d="M42 38 Q44 32 46 37" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/> <!-- lettuce -->
+  <path d="M48 36 Q51 30 54 36" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.5"/> <!-- lettuce -->
+  <circle cx="58" cy="38" r="3" fill="#E74C3C" stroke="#C62828" stroke-width="1"/> <!-- tomato -->
+  <circle cx="65" cy="42" r="2.5" fill="#AB47BC" opacity="0.7"/> <!-- onion -->
+  <!-- Surface texture lines -->
+  <path d="M28 58 Q40 52 50 54 Q60 52 72 58" fill="none" stroke="#C8922A" stroke-width="1.2" opacity="0.35"/>
+  <path d="M24 68 Q38 62 50 64 Q62 62 76 68" fill="none" stroke="#C8922A" stroke-width="1" opacity="0.25"/>
 </svg>

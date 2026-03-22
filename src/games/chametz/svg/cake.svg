@@ -1,23 +1,29 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Cake slice - triangular -->
-  <!-- Back face -->
-  <path d="M25 82 L50 30 L75 82 Z" fill="#F8BBD0" stroke="#C2185B" stroke-width="3" stroke-linejoin="round"/>
-  <!-- Bottom layer -->
-  <path d="M27 78 L73 78 L75 82 L25 82 Z" fill="#E8908A"/>
-  <!-- Middle frosting layer -->
-  <path d="M32 65 L68 65 L73 78 L27 78 Z" fill="#FFFFFF" stroke="none"/>
-  <line x1="32" y1="65" x2="68" y2="65" stroke="#C2185B" stroke-width="1" opacity="0.3"/>
-  <!-- Top layer -->
-  <path d="M50 30 L32 65 L68 65 Z" fill="#FFB6C1"/>
-  <!-- Pink frosting drip on top -->
-  <path d="M38 48 Q44 44 50 48 Q56 44 62 48" fill="none" stroke="#FF69B4" stroke-width="3" stroke-linecap="round"/>
-  <!-- Frosting on top edge -->
-  <path d="M50 30 Q48 34 46 36 Q50 34 54 36 Q52 34 50 30" fill="#FF69B4"/>
-  <!-- Cherry on top -->
-  <circle cx="50" cy="26" r="5" fill="#E74C3C" stroke="#C0392B" stroke-width="2"/>
-  <path d="M50 21 Q52 16 56 14" fill="none" stroke="#4CAF50" stroke-width="2" stroke-linecap="round"/>
-  <!-- Shine on cherry -->
-  <circle cx="48" cy="24" r="1.5" fill="#FF8A80" opacity="0.7"/>
-  <!-- Outline for structure -->
-  <path d="M25 82 L50 30 L75 82 Z" fill="none" stroke="#C2185B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Two-layer chocolate cake with cherry on top -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="92" rx="36" ry="4" fill="#00000020"/>
+  <!-- Plate -->
+  <ellipse cx="50" cy="88" rx="42" ry="6" fill="#E0E0E0" stroke="#5D4037" stroke-width="2"/>
+  <!-- Bottom cake layer -->
+  <rect x="14" y="62" width="72" height="24" rx="3" fill="#8B5E3C" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Cream filling between layers -->
+  <rect x="14" y="58" width="72" height="6" rx="1" fill="#FFF8DC" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Top cake layer -->
+  <rect x="14" y="36" width="72" height="24" rx="3" fill="#A0704C" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Chocolate frosting top -->
+  <path d="M14 40 Q14 28 50 28 Q86 28 86 40" fill="#5D3A1A" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Frosting drips down sides -->
+  <path d="M18 40 Q18 48 20 52" fill="none" stroke="#5D3A1A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M34 40 Q34 52 36 58" fill="none" stroke="#5D3A1A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M54 40 Q54 50 56 54" fill="none" stroke="#5D3A1A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M70 40 Q70 54 72 58" fill="none" stroke="#5D3A1A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M82 40 Q82 46 84 48" fill="none" stroke="#5D3A1A" stroke-width="4" stroke-linecap="round"/>
+  <!-- Chocolate frosting highlight -->
+  <path d="M24 34 Q42 28 58 30" fill="none" stroke="#7D5030" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+  <!-- Whipped cream dollop -->
+  <ellipse cx="50" cy="26" rx="8" ry="5" fill="#FFF8E0" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Cherry -->
+  <circle cx="50" cy="20" r="5" fill="#E74C3C" stroke="#5D4037" stroke-width="2"/>
+  <path d="M50 15 Q53 10 56 8" fill="none" stroke="#5D4037" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="48" cy="18" r="1.5" fill="#FF8A80" opacity="0.6"/>
 </svg>

@@ -1,32 +1,34 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Cute cartoon fish -->
-  <!-- Tail fin -->
-  <path d="M78 50 L95 32 L92 50 L95 68 Z" fill="#42A5F5" stroke="#1565C0" stroke-width="2.5"/>
-  <!-- Body -->
-  <ellipse cx="50" cy="50" rx="34" ry="24" fill="#42A5F5" stroke="#1565C0" stroke-width="3"/>
-  <!-- Belly -->
-  <ellipse cx="48" cy="56" rx="24" ry="12" fill="#90CAF9" opacity="0.5"/>
+  <!-- Fish on a plate with lemon slices -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="92" rx="38" ry="4" fill="#00000020"/>
+  <!-- Oval plate -->
+  <ellipse cx="50" cy="72" rx="42" ry="16" fill="#E8E8E8" stroke="#5D4037" stroke-width="2"/>
+  <ellipse cx="50" cy="70" rx="38" ry="13" fill="#F5F5F5" stroke="#BBB" stroke-width="1"/>
+  <!-- Lemon slices on plate -->
+  <circle cx="24" cy="72" r="6" fill="#FDD835" stroke="#F9A825" stroke-width="1.5"/>
+  <path d="M24 66 L24 78 M18 72 L30 72 M20 67 L28 77 M28 67 L20 77" fill="none" stroke="#FFF8E1" stroke-width="1" opacity="0.6"/>
+  <circle cx="76" cy="72" r="5" fill="#FDD835" stroke="#F9A825" stroke-width="1.5"/>
+  <path d="M76 67 L76 77 M71 72 L81 72" fill="none" stroke="#FFF8E1" stroke-width="1" opacity="0.6"/>
+  <!-- Fish body -->
+  <path d="M72 44 Q62 22 42 20 Q22 18 12 44 Q22 68 42 66 Q62 66 72 44Z"
+        fill="#5DADE2" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Fish tail -->
+  <path d="M72 44 L90 28 L88 44 L90 60 Z" fill="#5DADE2" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Fish belly -->
+  <path d="M68 46 Q58 62 42 62 Q26 62 16 46" fill="#85C1E9" stroke="none" opacity="0.5"/>
   <!-- Top fin -->
-  <path d="M42 26 Q48 14 56 18 Q52 26 48 28" fill="#1E88E5" stroke="#1565C0" stroke-width="2"/>
-  <!-- Bottom fin -->
-  <path d="M44 72 Q48 80 54 78 Q52 72 50 70" fill="#1E88E5" stroke="#1565C0" stroke-width="1.5"/>
-  <!-- Eye - white -->
-  <circle cx="32" cy="44" r="7" fill="white" stroke="#1565C0" stroke-width="2"/>
-  <!-- Eye - iris -->
-  <circle cx="30" cy="44" r="4" fill="#1565C0"/>
-  <!-- Eye - pupil -->
-  <circle cx="29" cy="43" r="2" fill="#0D47A1"/>
-  <!-- Eye - shine -->
-  <circle cx="28" cy="42" r="1.5" fill="white"/>
-  <!-- Smile -->
-  <path d="M22 56 Q28 62 36 58" fill="none" stroke="#1565C0" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Gill lines -->
-  <path d="M42 40 Q44 46 42 52" fill="none" stroke="#1E88E5" stroke-width="1.5" opacity="0.6"/>
-  <!-- Scale pattern -->
-  <path d="M52 38 Q56 42 52 46" fill="none" stroke="#1E88E5" stroke-width="1" opacity="0.4"/>
-  <path d="M60 42 Q64 46 60 50" fill="none" stroke="#1E88E5" stroke-width="1" opacity="0.4"/>
-  <path d="M54 50 Q58 54 54 58" fill="none" stroke="#1E88E5" stroke-width="1" opacity="0.4"/>
-  <path d="M66 46 Q70 50 66 54" fill="none" stroke="#1E88E5" stroke-width="1" opacity="0.3"/>
-  <!-- Cheek blush -->
-  <circle cx="28" cy="54" r="3" fill="#FF8A80" opacity="0.3"/>
+  <path d="M38 20 Q44 8 52 14 Q48 22 44 24" fill="#2E86C1" stroke="#5D4037" stroke-width="2"/>
+  <!-- Eye -->
+  <circle cx="28" cy="38" r="6" fill="white" stroke="#5D4037" stroke-width="2"/>
+  <circle cx="26" cy="38" r="3.5" fill="#2C3E50"/>
+  <circle cx="25" cy="36" r="1.5" fill="white"/>
+  <!-- Mouth -->
+  <path d="M14 46 Q18 50 24 48" fill="none" stroke="#5D4037" stroke-width="2" stroke-linecap="round"/>
+  <!-- Gill line -->
+  <path d="M36 32 Q38 40 36 48" fill="none" stroke="#2E86C1" stroke-width="1.5" opacity="0.6"/>
+  <!-- Scale hints -->
+  <path d="M48 32 Q52 36 48 40" fill="none" stroke="#2E86C1" stroke-width="1" opacity="0.35"/>
+  <path d="M56 36 Q60 40 56 44" fill="none" stroke="#2E86C1" stroke-width="1" opacity="0.35"/>
+  <path d="M50 44 Q54 48 50 52" fill="none" stroke="#2E86C1" stroke-width="1" opacity="0.3"/>
 </svg>

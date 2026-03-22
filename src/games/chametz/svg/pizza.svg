@@ -1,25 +1,24 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Pizza slice triangle -->
-  <path d="M50 12 L12 88 L88 88 Z" fill="#F4C542" stroke="#D4952B" stroke-width="3" stroke-linejoin="round"/>
-  <!-- Cheese layer -->
-  <path d="M50 20 L18 84 L82 84 Z" fill="#F0C030"/>
-  <!-- Crust -->
-  <path d="M12 88 Q50 94 88 88" fill="#D4952B" stroke="#B07818" stroke-width="3" stroke-linecap="round"/>
-  <path d="M14 86 Q50 92 86 86" fill="#E8A830" stroke="none"/>
-  <!-- Melted cheese drips -->
-  <path d="M30 78 Q28 84 26 88" fill="none" stroke="#F0C030" stroke-width="3" stroke-linecap="round"/>
-  <path d="M70 78 Q72 83 74 88" fill="none" stroke="#F0C030" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Pepperoni -->
-  <circle cx="42" cy="48" r="7" fill="#E74C3C" stroke="#C0392B" stroke-width="2"/>
-  <circle cx="42" cy="48" r="4" fill="#D32F2F" opacity="0.4"/>
-  <circle cx="62" cy="55" r="6" fill="#E74C3C" stroke="#C0392B" stroke-width="2"/>
-  <circle cx="62" cy="55" r="3.5" fill="#D32F2F" opacity="0.4"/>
-  <circle cx="50" cy="70" r="7" fill="#E74C3C" stroke="#C0392B" stroke-width="2"/>
-  <circle cx="50" cy="70" r="4" fill="#D32F2F" opacity="0.4"/>
-  <!-- Basil leaves -->
-  <path d="M36 62 Q38 58 42 60 Q38 63 36 62Z" fill="#4CAF50"/>
-  <path d="M56 42 Q58 38 62 40 Q58 43 56 42Z" fill="#4CAF50"/>
+  <!-- Pizza slice with mushroom toppings -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="92" rx="32" ry="4" fill="#00000020"/>
+  <!-- Main slice shape - tilted triangle -->
+  <path d="M85 18 L10 76 Q18 88 36 90 Q56 90 85 18Z" fill="#F4C542" stroke="#5D4037" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Cheese surface -->
+  <path d="M82 24 L16 74 Q22 84 36 86 Q54 86 82 24Z" fill="#F0C838"/>
+  <!-- Crust arc -->
+  <path d="M10 76 Q18 88 36 90" fill="none" stroke="#D4952B" stroke-width="9" stroke-linecap="round"/>
+  <path d="M10 76 Q18 88 36 90" fill="none" stroke="#5D4037" stroke-width="2" stroke-linecap="round"/>
+  <!-- Crust highlight -->
+  <path d="M12 78 Q20 86 34 88" fill="none" stroke="#E8B838" stroke-width="2.5" opacity="0.4" stroke-linecap="round"/>
+  <!-- Mushroom slices -->
+  <path d="M46 50 Q48 42 56 42 Q64 42 66 50Z" fill="#F0E0C8" stroke="#5D4037" stroke-width="1.8"/>
+  <rect x="52" y="46" width="4" height="5" rx="1" fill="#D8C8B0" stroke="#5D4037" stroke-width="1"/>
+  <path d="M26 68 Q28 60 36 60 Q44 60 46 68Z" fill="#F0E0C8" stroke="#5D4037" stroke-width="1.8"/>
+  <rect x="32" y="62" width="4" height="5" rx="1" fill="#D8C8B0" stroke="#5D4037" stroke-width="1"/>
+  <path d="M58 36 Q60 30 66 30 Q72 30 74 36Z" fill="#F0E0C8" stroke="#5D4037" stroke-width="1.5"/>
+  <rect x="63" y="32" width="3.5" height="4" rx="1" fill="#D8C8B0" stroke="#5D4037" stroke-width="1"/>
   <!-- Cheese bubbles -->
-  <circle cx="34" cy="38" r="2" fill="#F8D848" opacity="0.5"/>
-  <circle cx="55" cy="32" r="1.5" fill="#F8D848" opacity="0.5"/>
+  <circle cx="40" cy="58" r="2" fill="#F8D848" opacity="0.5"/>
+  <circle cx="70" cy="30" r="1.5" fill="#F8D848" opacity="0.4"/>
 </svg>

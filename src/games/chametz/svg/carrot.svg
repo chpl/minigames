@@ -1,21 +1,25 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Carrot body - tapered -->
-  <path d="M42 22 Q38 22 36 35 Q32 55 38 70 Q42 82 48 92 Q52 82 56 70 Q62 55 58 35 Q56 22 52 22Z"
-        fill="#FF9800" stroke="#E65100" stroke-width="3"/>
-  <!-- Lighter side -->
-  <path d="M44 26 Q40 26 38 38 Q34 55 40 70 Q44 80 48 88"
-        fill="#FFB74D" stroke="none" opacity="0.5"/>
-  <!-- Horizontal lines -->
-  <line x1="39" y1="36" x2="55" y2="34" stroke="#E65100" stroke-width="1.5" opacity="0.35"/>
-  <line x1="37" y1="48" x2="57" y2="46" stroke="#E65100" stroke-width="1.5" opacity="0.35"/>
-  <line x1="38" y1="60" x2="56" y2="58" stroke="#E65100" stroke-width="1.5" opacity="0.3"/>
-  <line x1="40" y1="72" x2="54" y2="70" stroke="#E65100" stroke-width="1.5" opacity="0.25"/>
-  <!-- Green leafy top - multiple leaves -->
-  <path d="M44 22 Q36 8 30 4" fill="none" stroke="#4CAF50" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M47 20 Q44 6 42 2" fill="none" stroke="#66BB6A" stroke-width="3" stroke-linecap="round"/>
-  <path d="M50 20 Q52 6 54 2" fill="none" stroke="#4CAF50" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M53 22 Q58 8 64 4" fill="none" stroke="#66BB6A" stroke-width="3" stroke-linecap="round"/>
-  <!-- Leaf details -->
-  <path d="M32 6 Q34 10 38 12" fill="none" stroke="#388E3C" stroke-width="1" opacity="0.5"/>
-  <path d="M62 6 Q60 10 56 12" fill="none" stroke="#388E3C" stroke-width="1" opacity="0.5"/>
+  <!-- Orange carrot with bushy green top -->
+  <!-- Shadow -->
+  <ellipse cx="48" cy="94" rx="16" ry="3" fill="#00000020"/>
+  <!-- Main carrot body - tapered -->
+  <path d="M40 24 Q36 28 32 42 Q28 58 34 72 Q38 82 46 94 Q50 86 54 72 Q60 58 56 42 Q52 28 48 24Z"
+        fill="#FF9800" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Lighter highlight side -->
+  <path d="M42 28 Q38 32 34 46 Q30 60 36 72 Q40 80 46 90"
+        fill="#FFB74D" stroke="none" opacity="0.45"/>
+  <!-- Horizontal segment lines -->
+  <line x1="35" y1="38" x2="53" y2="36" stroke="#E65100" stroke-width="1.5" opacity="0.3"/>
+  <line x1="33" y1="50" x2="55" y2="48" stroke="#E65100" stroke-width="1.5" opacity="0.3"/>
+  <line x1="34" y1="62" x2="54" y2="60" stroke="#E65100" stroke-width="1.5" opacity="0.25"/>
+  <line x1="36" y1="74" x2="52" y2="72" stroke="#E65100" stroke-width="1.5" opacity="0.2"/>
+  <!-- Green leafy top - bushy parsley-like leaves -->
+  <path d="M42 24 Q34 14 28 6 Q32 4 36 10 Q38 14 40 18" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M44 22 Q40 10 36 2 Q42 0 44 8 Q45 14 44 18" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M46 22 Q46 8 48 0 Q52 2 50 10 Q48 16 47 20" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M48 24 Q52 10 56 2 Q60 4 56 12 Q52 18 50 22" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M48 26 Q56 16 62 8 Q64 12 58 18 Q54 22 50 24" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+  <!-- Leaf highlights -->
+  <path d="M36 8 Q38 12 40 14" fill="none" stroke="#81C784" stroke-width="1" opacity="0.5"/>
+  <path d="M56 6 Q54 10 52 14" fill="none" stroke="#81C784" stroke-width="1" opacity="0.5"/>
 </svg>

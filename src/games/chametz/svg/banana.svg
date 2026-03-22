@@ -1,25 +1,22 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Banana - curved shape -->
-  <!-- Main banana body -->
-  <path d="M25 18 Q20 28 18 42 Q14 62 24 76 Q36 92 56 88 Q72 85 82 72 Q88 62 84 55
-           Q78 50 68 55 Q54 62 42 56 Q30 48 28 32 Q28 22 25 18Z"
-        fill="#FFE135" stroke="#F9A825" stroke-width="3"/>
-  <!-- Lighter banana highlight -->
-  <path d="M27 24 Q22 34 20 46 Q18 60 26 72 Q36 86 52 84"
-        fill="#FFF176" stroke="none" opacity="0.5"/>
-  <!-- Peel edge at top - slightly open -->
-  <path d="M25 18 Q28 12 34 10 Q30 16 28 22"
-        fill="#E8C820" stroke="#D4A800" stroke-width="2" stroke-linejoin="round"/>
-  <!-- Peel strip peeling back -->
-  <path d="M34 10 Q38 8 40 12 Q36 16 32 18"
-        fill="#FFE848" stroke="#D4A800" stroke-width="1.5"/>
-  <!-- Banana brown tip at bottom -->
-  <circle cx="82" cy="68" r="3" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
-  <!-- Subtle stripe lines -->
-  <path d="M24 40 Q30 36 34 40" fill="none" stroke="#E8C820" stroke-width="1" opacity="0.4"/>
-  <path d="M22 55 Q28 50 34 54" fill="none" stroke="#E8C820" stroke-width="1" opacity="0.4"/>
-  <path d="M26 70 Q34 66 40 68" fill="none" stroke="#E8C820" stroke-width="1" opacity="0.3"/>
-  <!-- Brown spots for ripeness -->
-  <circle cx="30" cy="46" r="1.5" fill="#A0845C" opacity="0.4"/>
-  <circle cx="36" cy="62" r="1.5" fill="#A0845C" opacity="0.3"/>
+  <!-- Yellow banana -->
+  <!-- Shadow -->
+  <ellipse cx="52" cy="90" rx="30" ry="4" fill="#00000020"/>
+  <!-- Main banana body - classic curved shape -->
+  <path d="M22 22 Q16 32 14 48 Q12 66 22 78 Q34 90 56 86 Q74 82 84 68 Q90 58 86 50
+           Q80 44 70 50 Q56 58 44 54 Q30 48 28 32 Q28 24 22 22Z"
+        fill="#FFD630" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Lighter side highlight -->
+  <path d="M24 28 Q18 38 16 52 Q14 66 24 76 Q34 86 52 82"
+        fill="#FFE566" stroke="none" opacity="0.5"/>
+  <!-- Top stem -->
+  <path d="M22 22 Q26 14 34 12" fill="none" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
+  <!-- Brown tip at stem -->
+  <path d="M22 22 Q24 18 28 16" fill="#8D6E63" stroke="none"/>
+  <!-- Brown tip at bottom -->
+  <circle cx="84" cy="64" r="3" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Subtle ridge lines along banana -->
+  <path d="M22 38 Q28 34 34 38" fill="none" stroke="#E8C020" stroke-width="1.2" opacity="0.4"/>
+  <path d="M18 54 Q26 48 34 52" fill="none" stroke="#E8C020" stroke-width="1.2" opacity="0.35"/>
+  <path d="M22 68 Q32 62 42 66" fill="none" stroke="#E8C020" stroke-width="1.2" opacity="0.3"/>
 </svg>

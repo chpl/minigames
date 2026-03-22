@@ -1,21 +1,24 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Red apple body -->
-  <path d="M50 28 Q26 26 18 48 Q12 68 28 80 Q40 90 50 84 Q60 90 72 80 Q88 68 82 48 Q74 26 50 28Z"
-        fill="#E74C3C" stroke="#C0392B" stroke-width="3"/>
-  <!-- Darker red side -->
-  <path d="M60 30 Q74 28 80 48 Q86 68 72 78 Q60 88 50 82"
-        fill="#C0392B" stroke="none" opacity="0.3"/>
-  <!-- Light highlight/shine -->
-  <path d="M30 38 Q34 30 42 32 Q36 40 32 48"
+  <!-- Shiny red apple with leaf -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="90" rx="26" ry="5" fill="#00000020"/>
+  <!-- Main apple body -->
+  <path d="M50 24 Q24 22 16 46 Q10 68 26 80 Q38 90 50 84 Q62 90 74 80 Q90 68 84 46 Q76 22 50 24Z"
+        fill="#E53935" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Darker red right side -->
+  <path d="M56 26 Q76 24 82 46 Q88 66 74 78 Q62 88 50 82"
+        fill="#C62828" stroke="none" opacity="0.35"/>
+  <!-- Large shine/highlight -->
+  <path d="M28 36 Q32 28 42 30 Q36 38 30 48"
         fill="#FF8A80" stroke="none" opacity="0.5"/>
-  <!-- Small shine dot -->
-  <circle cx="34" cy="40" r="3" fill="#FFCDD2" opacity="0.6"/>
+  <!-- Bright shine dot -->
+  <circle cx="32" cy="38" r="4" fill="#FFCDD2" opacity="0.55"/>
   <!-- Stem -->
-  <path d="M50 28 Q49 18 52 12" fill="none" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50 24 Q49 16 52 10" fill="none" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
   <!-- Leaf -->
-  <path d="M52 18 Q58 12 64 14 Q60 18 54 20 Z" fill="#4CAF50" stroke="#388E3C" stroke-width="1.5"/>
+  <path d="M52 16 Q60 10 66 12 Q62 18 54 20Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
   <!-- Leaf vein -->
-  <path d="M54 18 Q58 15 62 14" fill="none" stroke="#388E3C" stroke-width="0.8" opacity="0.6"/>
-  <!-- Dimple at top -->
-  <path d="M44 30 Q50 26 56 30" fill="none" stroke="#B71C1C" stroke-width="1.5" opacity="0.4"/>
+  <path d="M54 18 Q58 14 64 12" fill="none" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+  <!-- Top dimple -->
+  <path d="M44 26 Q50 22 56 26" fill="none" stroke="#B71C1C" stroke-width="1.5" opacity="0.4"/>
 </svg>

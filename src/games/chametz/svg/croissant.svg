@@ -1,21 +1,22 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Crescent croissant shape -->
-  <path d="M10 62 Q12 40 28 30 Q38 24 50 28 Q50 24 62 28 Q72 24 82 30 Q92 40 90 62
-           Q82 58 70 56 Q58 55 50 58 Q42 55 30 56 Q18 58 10 62Z"
-        fill="#D4952B" stroke="#8B6914" stroke-width="3"/>
-  <!-- Lighter top surface -->
-  <path d="M14 58 Q16 42 30 34 Q40 28 50 32 Q50 28 60 32 Q70 28 80 34 Q88 42 86 58"
-        fill="#E8A830" stroke="none"/>
-  <!-- Golden highlight -->
-  <path d="M20 52 Q22 42 34 36 Q42 32 50 34" fill="#F0C040" stroke="none" opacity="0.4"/>
-  <!-- Layer lines -->
-  <path d="M18 52 Q28 46 38 44 Q46 43 50 46" fill="none" stroke="#C8922A" stroke-width="1.5" opacity="0.5"/>
-  <path d="M50 46 Q54 43 62 44 Q72 46 82 52" fill="none" stroke="#C8922A" stroke-width="1.5" opacity="0.5"/>
-  <path d="M24 56 Q34 52 44 50 Q50 50 56 50 Q66 52 76 56" fill="none" stroke="#C8922A" stroke-width="1.5" opacity="0.4"/>
-  <!-- Curved ridges on surface -->
-  <path d="M30 42 Q36 38 42 40" fill="none" stroke="#B8820A" stroke-width="1" opacity="0.4"/>
-  <path d="M58 40 Q64 38 70 42" fill="none" stroke="#B8820A" stroke-width="1" opacity="0.4"/>
-  <!-- End tips curl highlight -->
-  <ellipse cx="12" cy="60" rx="4" ry="3" fill="#F0C040" opacity="0.3"/>
-  <ellipse cx="88" cy="60" rx="4" ry="3" fill="#F0C040" opacity="0.3"/>
+  <!-- Classic crescent croissant with visible segmented ridges -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="82" rx="38" ry="5" fill="#00000020"/>
+  <!-- Main croissant body -->
+  <path d="M6 68 Q8 48 22 38 Q34 30 50 34 Q66 30 78 38 Q92 48 94 68
+           Q80 62 66 60 Q56 58 50 62 Q44 58 34 60 Q20 62 6 68Z"
+        fill="#E8A020" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Segment ridges - curved lines creating layered look -->
+  <path d="M16 60 Q22 44 34 36 Q42 32 50 36" fill="none" stroke="#C07B18" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M50 36 Q58 32 66 36 Q78 44 84 60" fill="none" stroke="#C07B18" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Inner ridges -->
+  <path d="M22 58 Q28 48 38 42 Q44 38 50 40" fill="none" stroke="#C8881A" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M50 40 Q56 38 62 42 Q72 48 78 58" fill="none" stroke="#C8881A" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M28 62 Q34 54 42 48 Q46 46 50 48" fill="none" stroke="#B87818" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <path d="M50 48 Q54 46 58 48 Q66 54 72 62" fill="none" stroke="#B87818" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <!-- Top highlight -->
+  <path d="M24 50 Q32 40 44 36" fill="none" stroke="#F0C840" stroke-width="2.5" stroke-linecap="round" opacity="0.35"/>
+  <!-- Tip curls -->
+  <circle cx="8" cy="66" r="4" fill="#D89018" stroke="#5D4037" stroke-width="2"/>
+  <circle cx="92" cy="66" r="4" fill="#D89018" stroke="#5D4037" stroke-width="2"/>
 </svg>

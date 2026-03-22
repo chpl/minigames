@@ -1,27 +1,29 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Assorted nuts cluster -->
-  <!-- Walnut (back, larger) -->
-  <circle cx="55" cy="40" r="16" fill="#8B6914" stroke="#5D4037" stroke-width="2.5"/>
-  <circle cx="53" cy="38" r="14" fill="#A07030"/>
-  <!-- Walnut brain texture -->
-  <path d="M55 28 L55 52" fill="none" stroke="#6D4C41" stroke-width="1.5" opacity="0.5"/>
-  <path d="M44 36 Q50 32 55 36 Q60 32 66 36" fill="none" stroke="#6D4C41" stroke-width="1" opacity="0.4"/>
-  <path d="M44 44 Q50 40 55 44 Q60 40 66 44" fill="none" stroke="#6D4C41" stroke-width="1" opacity="0.4"/>
+  <!-- Assorted nuts - almonds and walnuts with leaf -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="90" rx="34" ry="5" fill="#00000020"/>
+  <!-- Walnut (back center, large) -->
+  <circle cx="50" cy="42" r="18" fill="#8B6914" stroke="#5D4037" stroke-width="2.5"/>
+  <circle cx="48" cy="40" r="15" fill="#A07830"/>
+  <!-- Walnut seam and texture -->
+  <path d="M50 26 L50 58" fill="none" stroke="#6D4C41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M38 36 Q44 32 50 36 Q56 32 62 36" fill="none" stroke="#6D4C41" stroke-width="1" opacity="0.4"/>
+  <path d="M38 46 Q44 42 50 46 Q56 42 62 46" fill="none" stroke="#6D4C41" stroke-width="1" opacity="0.4"/>
+  <!-- Walnut highlight -->
+  <circle cx="44" cy="36" r="4" fill="#B89040" opacity="0.35"/>
   <!-- Almond (left) -->
-  <ellipse cx="30" cy="55" rx="10" ry="16" fill="#D4A040" stroke="#8B6914" stroke-width="2.5" transform="rotate(-20,30,55)"/>
-  <ellipse cx="29" cy="53" rx="8" ry="13" fill="#E0B858" transform="rotate(-20,29,53)"/>
-  <!-- Almond line -->
-  <path d="M28 42 Q30 55 28 66" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="24" cy="64" rx="10" ry="16" fill="#D4A040" stroke="#5D4037" stroke-width="2.5" transform="rotate(-15,24,64)"/>
+  <ellipse cx="23" cy="62" rx="8" ry="13" fill="#E0B858" transform="rotate(-15,23,62)"/>
+  <path d="M22 50 Q24 62 22 76" fill="none" stroke="#B88818" stroke-width="1" opacity="0.4"/>
   <!-- Almond (right) -->
-  <ellipse cx="72" cy="58" rx="10" ry="15" fill="#D4A040" stroke="#8B6914" stroke-width="2.5" transform="rotate(15,72,58)"/>
-  <ellipse cx="71" cy="56" rx="8" ry="12" fill="#E0B858" transform="rotate(15,71,56)"/>
-  <path d="M70 46 Q72 58 70 68" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.5"/>
-  <!-- Small hazelnut (front center) -->
-  <circle cx="50" cy="72" r="12" fill="#6D4C41" stroke="#5D4037" stroke-width="2.5"/>
-  <circle cx="48" cy="70" r="10" fill="#8B6548"/>
-  <!-- Hazelnut cap -->
-  <path d="M40 68 Q44 62 50 62 Q56 62 60 68" fill="#5D4037" stroke="#4E342E" stroke-width="1.5"/>
-  <!-- Highlights -->
-  <circle cx="46" cy="38" r="3" fill="#C09848" opacity="0.4"/>
-  <circle cx="46" cy="68" r="2" fill="#A0845C" opacity="0.4"/>
+  <ellipse cx="76" cy="64" rx="10" ry="16" fill="#D4A040" stroke="#5D4037" stroke-width="2.5" transform="rotate(15,76,64)"/>
+  <ellipse cx="75" cy="62" rx="8" ry="13" fill="#E0B858" transform="rotate(15,75,62)"/>
+  <path d="M74 50 Q76 62 74 76" fill="none" stroke="#B88818" stroke-width="1" opacity="0.4"/>
+  <!-- Small round nut (front center) -->
+  <circle cx="50" cy="74" r="12" fill="#6D4C41" stroke="#5D4037" stroke-width="2.5"/>
+  <circle cx="48" cy="72" r="10" fill="#8B6548"/>
+  <circle cx="46" cy="70" r="3" fill="#A0845C" opacity="0.35"/>
+  <!-- Green leaf accent -->
+  <path d="M62 28 Q70 20 78 22 Q74 28 66 32Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+  <path d="M66 30 Q72 24 76 22" fill="none" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
 </svg>

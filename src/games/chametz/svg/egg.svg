@@ -1,15 +1,24 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Egg shape -->
-  <path d="M50 10 Q28 10 22 40 Q16 65 30 80 Q40 92 50 92 Q60 92 70 80 Q84 65 78 40 Q72 10 50 10Z"
-        fill="#FAEBD7" stroke="#BCAAA4" stroke-width="3"/>
-  <!-- Subtle inner lighter area -->
-  <path d="M50 14 Q32 14 26 42 Q20 62 34 76 Q42 86 50 86"
-        fill="#FFF8F0" stroke="none" opacity="0.5"/>
-  <!-- Main highlight/shine -->
-  <ellipse cx="38" cy="36" rx="10" ry="14" fill="#FFFFFF" opacity="0.35" transform="rotate(-15,38,36)"/>
-  <!-- Small bright shine dot -->
-  <circle cx="36" cy="32" r="3" fill="#FFFFFF" opacity="0.5"/>
-  <!-- Subtle shadow at bottom -->
-  <path d="M34 78 Q42 88 50 88 Q58 88 66 78"
-        fill="#D7CCC8" stroke="none" opacity="0.3"/>
+  <!-- Egg in an egg cup -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="94" rx="22" ry="3" fill="#00000020"/>
+  <!-- Egg cup - base -->
+  <ellipse cx="50" cy="90" rx="18" ry="4" fill="#C8A060" stroke="#5D4037" stroke-width="2"/>
+  <!-- Egg cup - stem -->
+  <path d="M38 78 L34 88 L66 88 L62 78Z" fill="#D4A868" stroke="#5D4037" stroke-width="2"/>
+  <!-- Egg cup - bowl part -->
+  <path d="M32 66 Q32 80 50 80 Q68 80 68 66" fill="#D4A868" stroke="#5D4037" stroke-width="2"/>
+  <!-- Egg cup rim -->
+  <ellipse cx="50" cy="66" rx="18" ry="5" fill="#E0B878" stroke="#5D4037" stroke-width="2"/>
+  <!-- Egg cup inner -->
+  <ellipse cx="50" cy="66" rx="14" ry="3.5" fill="#C89858"/>
+  <!-- Egg -->
+  <path d="M50 12 Q32 12 28 38 Q24 56 36 66 Q42 72 50 72 Q58 72 64 66 Q76 56 72 38 Q68 12 50 12Z"
+        fill="#FAEBD7" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Egg highlight -->
+  <path d="M50 16 Q36 16 32 36 Q28 50 38 62"
+        fill="#FFF8F0" stroke="none" opacity="0.45"/>
+  <!-- Shine -->
+  <ellipse cx="40" cy="32" rx="6" ry="10" fill="#FFFFFF" opacity="0.3" transform="rotate(-10,40,32)"/>
+  <circle cx="38" cy="28" r="2.5" fill="#FFFFFF" opacity="0.45"/>
 </svg>
