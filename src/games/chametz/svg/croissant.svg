@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15 60 Q20 35 40 30 Q50 28 55 35 Q60 28 70 30 Q85 35 85 60 Q70 55 50 58 Q30 55 15 60Z"
+          fill="#E8C170" stroke="#8B6914" stroke-width="3"/>
+    <path d="M20 56 Q25 40 42 34 Q50 32 55 38 Q58 32 68 34 Q80 40 80 56" fill="#F0D48A" stroke="none"/>
+    <path d="M30 50 Q35 44 42 42" fill="none" stroke="#C9A04E" stroke-width="1.5" opacity="0.6"/>
+    <path d="M55 42 Q62 40 70 50" fill="none" stroke="#C9A04E" stroke-width="1.5" opacity="0.6"/>
+    <path d="M42 48 Q50 45 58 48" fill="none" stroke="#C9A04E" stroke-width="1.5" opacity="0.6"/>
+  </svg>

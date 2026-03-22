@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 80 Q25 65 20 45 Q15 25 35 20 Q50 16 50 35 Q50 16 65 20 Q85 25 80 45 Q75 65 50 80Z"
+          fill="#D4A056" stroke="#8B6914" stroke-width="3" fill-rule="evenodd"/>
+    <path d="M50 70 Q32 58 28 44 Q24 30 38 27 Q48 24 48 38 Q48 24 62 27 Q76 30 72 44 Q68 58 50 70Z"
+          fill="#E8C170" stroke="none"/>
+    <circle cx="35" cy="35" r="1.5" fill="#FFF" opacity="0.7"/>
+    <circle cx="65" cy="35" r="1.5" fill="#FFF" opacity="0.7"/>
+    <circle cx="50" cy="65" r="1.5" fill="#FFF" opacity="0.7"/>
+    <circle cx="42" cy="50" r="1" fill="#FFF" opacity="0.7"/>
+    <circle cx="58" cy="50" r="1" fill="#FFF" opacity="0.7"/>
+  </svg>
