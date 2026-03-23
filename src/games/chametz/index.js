@@ -5,6 +5,7 @@ import { renderBasket } from './svg/basket.js'
 import { createSwipeHandler } from './swipe.js'
 import { showConfetti, showStars } from '../../shared/confetti.js'
 import { navigate } from '../../router.js'
+import { playClick, playCorrect, playWrong, playSwipe, playVictory, isMuted, setMuted } from '../../shared/sound.js'
 
 export function mount(container) {
   let state = 'title' // title | playing | complete
@@ -37,6 +38,7 @@ export function mount(container) {
       </div>
     `
     container.querySelector('#start-btn').addEventListener('click', () => {
+      playClick()
       state = 'playing'
       foodList = shuffleFoods()
       currentIndex = 0
@@ -53,6 +55,9 @@ export function mount(container) {
       <div class="chametz-game">
         <div class="game-play">
           <div class="game-header">
+            <button class="mute-btn" id="mute-btn" aria-label="Toggle sound">
+              ${isMuted() ? '<svg viewBox="0 0 24 24" width="24" height="24"><path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/><line x1="23" y1="9" x2="17" y2="15" stroke="currentColor" stroke-width="2"/><line x1="17" y1="9" x2="23" y2="15" stroke="currentColor" stroke-width="2"/></svg>' : '<svg viewBox="0 0 24 24" width="24" height="24"><path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/><path d="M14 7.5c1.2 1 2 2.7 2 4.5s-.8 3.5-2 4.5M17 5c2 1.7 3.5 4.5 3.5 7s-1.5 5.3-3.5 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>'}
+            </button>
             <div class="level-text">${currentIndex + 1} / ${foodList.length}</div>
             <div class="progress-bar">
               <div class="progress-bar-fill" style="width: ${progress}%"></div>
@@ -94,6 +99,13 @@ export function mount(container) {
     }
 
     setupSwipe(food)
+
+    container.querySelector('#mute-btn').addEventListener('click', () => {
+      setMuted(!isMuted())
+      container.querySelector('#mute-btn').innerHTML = isMuted()
+        ? '<svg viewBox="0 0 24 24" width="24" height="24"><path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/><line x1="23" y1="9" x2="17" y2="15" stroke="currentColor" stroke-width="2"/><line x1="17" y1="9" x2="23" y2="15" stroke="currentColor" stroke-width="2"/></svg>'
+        : '<svg viewBox="0 0 24 24" width="24" height="24"><path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/><path d="M14 7.5c1.2 1 2 2.7 2 4.5s-.8 3.5-2 4.5M17 5c2 1.7 3.5 4.5 3.5 7s-1.5 5.3-3.5 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>'
+    })
   }
 
   function setupSwipe(food) {
@@ -151,6 +163,8 @@ export function mount(container) {
   }
 
   function onCorrect() {
+    playSwipe()
+    playCorrect()
     if (destroySwipe) {
       destroySwipe()
       destroySwipe = null
@@ -175,6 +189,8 @@ export function mount(container) {
   }
 
   function onWrong() {
+    playSwipe()
+    playWrong()
     if (destroySwipe) {
       destroySwipe()
       destroySwipe = null
@@ -215,10 +231,12 @@ export function mount(container) {
       </div>
     `
 
-    // Confetti!
+    // Celebration!
+    playVictory()
     showConfetti(container)
 
     container.querySelector('#play-again-btn').addEventListener('click', () => {
+      playClick()
       state = 'playing'
       foodList = shuffleFoods()
       currentIndex = 0
@@ -227,6 +245,7 @@ export function mount(container) {
     })
 
     container.querySelector('#home-btn').addEventListener('click', () => {
+      playClick()
       navigate('/')
     })
   }
