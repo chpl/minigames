@@ -1,0 +1,23 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Classic twisted pretzel shape -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="90" rx="32" ry="5" fill="#00000020"/>
+  <!-- Main pretzel - thick stroke paths forming the twist -->
+  <!-- Left loop -->
+  <path d="M50 84 Q18 70 14 46 Q10 24 30 16 Q44 10 50 30" fill="none" stroke="#D4952B" stroke-width="14" stroke-linecap="round"/>
+  <!-- Right loop -->
+  <path d="M50 84 Q82 70 86 46 Q90 24 70 16 Q56 10 50 30" fill="none" stroke="#D4952B" stroke-width="14" stroke-linecap="round"/>
+  <!-- Outlines -->
+  <path d="M50 84 Q18 70 14 46 Q10 24 30 16 Q44 10 50 30" fill="none" stroke="#5D4037" stroke-width="2.5"/>
+  <path d="M50 84 Q82 70 86 46 Q90 24 70 16 Q56 10 50 30" fill="none" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Inner highlight stroke -->
+  <path d="M50 78 Q24 66 20 46 Q16 28 34 22 Q44 18 48 32" fill="none" stroke="#E8C060" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+  <!-- Salt crystals -->
+  <rect x="30" y="28" width="3.5" height="3.5" rx="0.5" fill="#FFF" opacity="0.8" transform="rotate(15,31,29)"/>
+  <rect x="64" y="28" width="3.5" height="3.5" rx="0.5" fill="#FFF" opacity="0.8" transform="rotate(-10,65,29)"/>
+  <rect x="48" y="70" width="3" height="3" rx="0.5" fill="#FFF" opacity="0.8"/>
+  <rect x="22" y="46" width="3" height="3" rx="0.5" fill="#FFF" opacity="0.7"/>
+  <rect x="74" y="46" width="3" height="3" rx="0.5" fill="#FFF" opacity="0.7"/>
+  <rect x="38" y="50" width="2.5" height="2.5" rx="0.5" fill="#FFF" opacity="0.6"/>
+  <rect x="58" y="50" width="2.5" height="2.5" rx="0.5" fill="#FFF" opacity="0.6"/>
+</svg>

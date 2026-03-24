@@ -1,0 +1,22 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Yellow banana -->
+  <!-- Shadow -->
+  <ellipse cx="52" cy="90" rx="30" ry="4" fill="#00000020"/>
+  <!-- Main banana body - classic curved shape -->
+  <path d="M22 22 Q16 32 14 48 Q12 66 22 78 Q34 90 56 86 Q74 82 84 68 Q90 58 86 50
+           Q80 44 70 50 Q56 58 44 54 Q30 48 28 32 Q28 24 22 22Z"
+        fill="#FFD630" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Lighter side highlight -->
+  <path d="M24 28 Q18 38 16 52 Q14 66 24 76 Q34 86 52 82"
+        fill="#FFE566" stroke="none" opacity="0.5"/>
+  <!-- Top stem -->
+  <path d="M22 22 Q26 14 34 12" fill="none" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
+  <!-- Brown tip at stem -->
+  <path d="M22 22 Q24 18 28 16" fill="#8D6E63" stroke="none"/>
+  <!-- Brown tip at bottom -->
+  <circle cx="84" cy="64" r="3" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Subtle ridge lines along banana -->
+  <path d="M22 38 Q28 34 34 38" fill="none" stroke="#E8C020" stroke-width="1.2" opacity="0.4"/>
+  <path d="M18 54 Q26 48 34 52" fill="none" stroke="#E8C020" stroke-width="1.2" opacity="0.35"/>
+  <path d="M22 68 Q32 62 42 66" fill="none" stroke="#E8C020" stroke-width="1.2" opacity="0.3"/>
+</svg>
