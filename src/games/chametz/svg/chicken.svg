@@ -1,0 +1,29 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Whole roasted chicken -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="90" rx="30" ry="5" fill="#00000020"/>
+  <!-- Main chicken body -->
+  <ellipse cx="50" cy="56" rx="32" ry="28" fill="#D4952B" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Lighter top surface -->
+  <ellipse cx="48" cy="50" rx="26" ry="22" fill="#E8A830" stroke="none"/>
+  <!-- Top highlight -->
+  <path d="M30 40 Q40 30 54 34 Q60 36 66 42" fill="#F0C040" stroke="none" opacity="0.35"/>
+  <!-- Shine spot -->
+  <ellipse cx="40" cy="40" rx="6" ry="5" fill="#F0C040" opacity="0.25"/>
+  <!-- Drumstick left -->
+  <path d="M22 66 Q16 72 14 78 Q12 82 16 84 Q20 84 22 80 Q24 76 26 70" fill="#D4952B" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Drumstick right -->
+  <path d="M78 66 Q84 72 86 78 Q88 82 84 84 Q80 84 78 80 Q76 76 74 70" fill="#D4952B" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Bone tip left -->
+  <circle cx="15" cy="82" r="3" fill="#FFF8E1" stroke="#BCAAA4" stroke-width="1.5"/>
+  <!-- Bone tip right -->
+  <circle cx="85" cy="82" r="3" fill="#FFF8E1" stroke="#BCAAA4" stroke-width="1.5"/>
+  <!-- Crispy texture lines -->
+  <path d="M32 50 Q36 46 40 50" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.35"/>
+  <path d="M54 44 Q58 40 62 44" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.35"/>
+  <path d="M40 62 Q44 58 48 62" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.3"/>
+  <path d="M56 58 Q60 54 64 58" fill="none" stroke="#C07B18" stroke-width="1.5" opacity="0.3"/>
+  <!-- Wing hints -->
+  <path d="M24 54 Q20 50 22 46 Q26 48 28 52" fill="#C8881A" stroke="#5D4037" stroke-width="1.5"/>
+  <path d="M76 54 Q80 50 78 46 Q74 48 72 52" fill="#C8881A" stroke="#5D4037" stroke-width="1.5"/>
+</svg>

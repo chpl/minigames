@@ -1,0 +1,32 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue bowl with colorful cereal rings and spoon -->
+  <!-- Shadow -->
+  <ellipse cx="50" cy="92" rx="34" ry="5" fill="#00000020"/>
+  <!-- Bowl body -->
+  <path d="M8 48 Q8 90 50 90 Q92 90 92 48" fill="#64B5F6" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Bowl darker lower band -->
+  <path d="M12 58 Q12 62 18 70 Q32 84 50 84 Q68 84 82 70 Q88 62 88 58" fill="#42A5F5" stroke="none"/>
+  <!-- Bowl rim -->
+  <ellipse cx="50" cy="48" rx="42" ry="13" fill="#90CAF9" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Milk surface -->
+  <ellipse cx="50" cy="48" rx="36" ry="9" fill="#FFFFF0" opacity="0.5"/>
+  <!-- Cereal rings -->
+  <circle cx="30" cy="44" r="5.5" fill="#FF5252" stroke="#C62828" stroke-width="1.5"/>
+  <circle cx="30" cy="44" r="2.2" fill="#FFFFF0" opacity="0.6"/>
+  <circle cx="44" cy="41" r="5.5" fill="#FFCA28" stroke="#F57F17" stroke-width="1.5"/>
+  <circle cx="44" cy="41" r="2.2" fill="#FFFFF0" opacity="0.6"/>
+  <circle cx="58" cy="42" r="5.5" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.5"/>
+  <circle cx="58" cy="42" r="2.2" fill="#FFFFF0" opacity="0.6"/>
+  <circle cx="72" cy="46" r="5" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="72" cy="46" r="2" fill="#FFFFF0" opacity="0.6"/>
+  <circle cx="36" cy="52" r="5" fill="#AB47BC" stroke="#7B1FA2" stroke-width="1.5"/>
+  <circle cx="36" cy="52" r="2" fill="#FFFFF0" opacity="0.6"/>
+  <circle cx="50" cy="50" r="5.5" fill="#FF7043" stroke="#D84315" stroke-width="1.5"/>
+  <circle cx="50" cy="50" r="2.2" fill="#FFFFF0" opacity="0.6"/>
+  <circle cx="64" cy="52" r="5" fill="#FFCA28" stroke="#F57F17" stroke-width="1.5"/>
+  <circle cx="64" cy="52" r="2" fill="#FFFFF0" opacity="0.6"/>
+  <!-- Spoon handle -->
+  <rect x="73" y="12" width="4" height="36" rx="2" fill="#C0C0C0" stroke="#5D4037" stroke-width="1.5" transform="rotate(10,75,30)"/>
+  <!-- Spoon bowl -->
+  <ellipse cx="72" cy="48" rx="6" ry="3.5" fill="#D8D8D8" stroke="#5D4037" stroke-width="1.5" transform="rotate(10,72,48)"/>
+</svg>

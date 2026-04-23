@@ -1,0 +1,20 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brown potato - simple organic oval -->
+  <!-- Shadow -->
+  <ellipse cx="52" cy="86" rx="30" ry="5" fill="#00000020"/>
+  <!-- Main potato body -->
+  <path d="M50 22 Q76 20 86 38 Q94 54 86 68 Q76 82 50 80 Q24 82 14 68 Q6 54 14 38 Q24 20 50 22Z"
+        fill="#A07850" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Lighter surface -->
+  <path d="M50 26 Q72 24 82 40 Q88 52 82 64 Q74 76 50 74 Q26 76 18 64 Q12 52 18 40 Q28 24 50 26Z"
+        fill="#B8905E"/>
+  <!-- Top highlight -->
+  <path d="M34 32 Q44 24 58 28 Q66 30 72 38" fill="#C8A070" stroke="none" opacity="0.5"/>
+  <!-- Small shine -->
+  <ellipse cx="42" cy="34" rx="8" ry="5" fill="#D0A878" opacity="0.4"/>
+  <!-- Potato eyes/spots -->
+  <ellipse cx="36" cy="44" rx="2.5" ry="1.8" fill="#7D5A3C" opacity="0.5"/>
+  <ellipse cx="60" cy="40" rx="2" ry="1.5" fill="#7D5A3C" opacity="0.4"/>
+  <ellipse cx="68" cy="56" rx="2.5" ry="1.8" fill="#7D5A3C" opacity="0.5"/>
+  <ellipse cx="36" cy="62" rx="2" ry="1.5" fill="#7D5A3C" opacity="0.4"/>
+</svg>
